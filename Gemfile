@@ -41,6 +41,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # Better debug information in upper stack
+  gem 'better_errors', '~> 2.1.0'
+  gem 'binding_of_caller', '~> 0.7.2'
 end
 
 gem 'devise', '~> 3.4.1'
